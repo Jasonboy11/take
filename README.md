@@ -1,14 +1,14 @@
-#GitHub和Git的初步使用
+# GitHub和Git的初步使用
 
 ---
 
-##一、注册GitHub
+## 一、注册GitHub
 
 - 进入GitHub官网进行注册
 
 ---
 
-##二、配置Git并获取密钥
+## 二、配置Git并获取密钥
 - 1.下载安装Git
 - 2.在你的目录文件夹中右键点击Git Bash Here
 - ![](https://raw.githubusercontent.com/Jasonboy11/take/master/image/1.png)
@@ -23,7 +23,7 @@
 
 ---
 
-##三、在GitHub中添加密钥
+## 三、在GitHub中添加密钥
 - 1.右上角点击自己的头像，再点设置，找到SSH和GPG密钥，再点击新的SSH秘钥，进图添加界面，创建一个标提，然后再把刚刚复制的的密钥粘贴到键中，最后点击添加SSH密钥。
 - ![](https://raw.githubusercontent.com/Jasonboy11/take/master/image/4.png)
 - ![](https://raw.githubusercontent.com/Jasonboy11/take/master/image/5.png)
@@ -32,7 +32,7 @@
 
 ---
 
-##四、Git编辑本地仓库和上传到GitHub远程仓库
+## 四、Git编辑本地仓库和上传到GitHub远程仓库
 - 1.初始化仓库，这一步很重要，如果没有初始化过的仓库将无法执行任何操作，检查是否已经初始化可以在当前文件夹查看有没有.git文件夹（注意是隐藏文件，需要在文件夹选项中勾选查看隐藏项目）如果没有就输入 $ git init
 - 2.添加你的项目文件，一般GitHub默认有一个README文件，即说明文件，把他看做一个文本文件，用来说明描述项目或有关说明。我们首先创建它，输入$ echo "#测试说明" >> README.md
 - 3.用git add添加文件进入git版本库，在此之前先输入$ git status来查看文件变动，看见标红的README.md文件说明此文件有新改动但是没有上传保存。我们将它添加进去，输入$ git add README.md 添加文件，再提交备注信息，输入$ git commit -m "你的备注信息"
@@ -47,7 +47,7 @@
 
 ---
 
-##五、6个常用命令
+## 五、6个常用命令
 - 1.$ git init -->初始化本地仓库（每个项目文件夹下只需要初始化一次即可）
 - 2.$ git status -->查看状态
 - 3.$ git add 文件名-->跟踪修改文件（更新文件）
