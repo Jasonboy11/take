@@ -25,7 +25,9 @@
 
 ## 三、在GitHub中添加密钥
 - 1.右上角点击自己的头像，再点设置，找到SSH和GPG密钥，再点击新的SSH秘钥，进图添加界面，创建一个标提，然后再把刚刚复制的的密钥粘贴到键中，最后点击添加SSH密钥。
+* 
 - ![](https://raw.githubusercontent.com/Jasonboy11/take/master/image/4.png)
+* 
 - ![](https://raw.githubusercontent.com/Jasonboy11/take/master/image/5.png)
 - 2.验证链接是否成功打开Git Bash,输入命令 $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续，看到显示You've successfully authenticated, but GitHub does not provide shell access代表连接已经成功。
 
