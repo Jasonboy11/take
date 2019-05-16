@@ -15,6 +15,7 @@
 - 3.配置Git的邮箱和密码：
 <p>$ git config --global user.name "输入你的用户名"<p/>
 <p>$ git config --global user.email "输入你的邮箱"<p/>
+
 - 4.输入 $ssh-keygen -t rsa -C "your_email@youremail.com" 后面的your_email@youremail.com是你在github上注册使用的邮箱。
 - 5.然后出现提示会要求确认路径密码，直接回车默认，它会显示秘钥图像代表keys已经生成了，我们需要这串秘钥来和GitHub上的远程仓库和本地仓库进行远程连接。
 - ![](https://raw.githubusercontent.com/Jasonboy11/take/master/image/2.png)
